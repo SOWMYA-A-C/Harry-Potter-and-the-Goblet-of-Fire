@@ -18,11 +18,11 @@ var bulletImg;
 
 function preload(){
 //bgImg = loadImage("images/bg.jpeg");
-player1SImg =loadImage("images/broomstick.png");
-player2SImg = loadImage("images/ronb.png");
-player1Maze = loadImage("images/standing.png");
-player2Maze = loadImage("images/rons.png");
-dragon1Img = loadAnimation("images/D11.gif", "images/D12.gif", "images/D13.gif","images/D14.gif","images/D15.gif");
+player1SImg =loadImage("./images/broomstick.png");
+player2SImg = loadImage("../images/ronb.png");
+player1Maze = loadImage("./images/standing.png");
+player2Maze = loadImage("./images/rons.png");
+dragon1Img = loadAnimation("../images/D11.gif", "../images/D12.gif", "images/D13.gif","images/D14.gif","images/D15.gif");
 dragon2Img = loadAnimation("images/D21.gif", "images/D22.gif", "images/D23.gif", "images/D24.gif", "images/D25.gif", "images/D26.gif")
 dragon3Img = loadAnimation("images/D31.gif", "images/D32.gif", "images/D33.gif", "images/D34.gif", "images/D35.gif", 
 "images/D36.gif", "images/D37.gif", "images/D38.gif", "images/D39.gif", "images/D40.gif", "images/D41.gif")
